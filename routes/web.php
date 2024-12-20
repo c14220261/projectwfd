@@ -9,7 +9,7 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 
 
 Route::get('/', function () {
-    return view('register');
+    return view('/register');
 });
 
 Route::get('/dashboard', function () {
